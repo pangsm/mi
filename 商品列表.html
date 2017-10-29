@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 936px;
+            height: 219px;
+            background: #FCFCFD;
+            margin: 100px auto;
+            border-top: 1px solid #99e4ff;
+            border-bottom: 1px solid #99e4ff;
+        }
+        .goods{
+            width: 187px;
+            height: 100%;
+            display: block;
+            position: relative;
+            background: #FCFCFD;
+            float: left;
+
+        }
+        .goods .img_name{
+            display: block;
+            margin-top: 10px;
+            padding-left: 16px;
+            padding-right: 20px;
+            width: 150px;
+            height: 150px;
+
+        }
+        .goods .price{
+            width: 150px;
+            height: 19px;
+            margin-left: 16px;
+            display: block;
+            background: #FCFCFD;
+            text-align: center;
+        }
+        .goods .bottom{
+            width: 150px;
+            height: 40px;
+            margin-left: 16px;
+            display: block;
+            margin-top: 0px;
+            display: none;
+            text-align: center;
+        }
+        .goods:hover .bottom{
+            width: 210px;
+            height: 300px;
+            box-shadow: 0 2px 3px rgba(20, 38, 54, 0.51);
+            opacity: 1;
+            bottom: -30px;
+            position: absolute;
+            margin-left: -10px;
+            z-index: 1;
+            display: block;
+
+        }
+        .goods:hover .bottom h3{
+            font-size: 13px;
+            color: #00FF00;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="goods">
+        <div class="img_name"><img src="1.jpg" alt=""/></div>
+        <div class="price">￥298.00</div>
+        <div class="bottom">
+        <h3>驰力源 手环 智能手环 来</h3>
+        </div>
+    </div>
+    <div class="goods">
+        <div class="img_name"><img src="2.jpg" alt=""/></div>
+        <div class="price">￥1,0779.00</div>
+        <div class="bottom">
+            <h3>YI 4K运动相机(黑色)智能</h3>
+        </div>
+    </div>
+    <div class="goods">
+        <div class="img_name"><img src="3.jpg" alt=""/></div>
+        <div class="price">￥298.00</div>
+        <div class="bottom">
+            <h3>驰力源 手环 智能手环 来</h3>
+        </div>
+    </div>
+    <div class="goods">
+        <div class="img_name"><img src="4.jpg" alt=""/></div>
+        <div class="price">￥298.00</div>
+        <div class="bottom">
+            <h3>驰力源 手环 智能手环 来</h3>
+        </div>
+    </div>
+    <div class="goods">
+        <div class="img_name"><img src="5.jpg" alt=""/></div>
+        <div class="price">￥16,200.00</div>
+        <div class="bottom">
+            <h3>驰力源 手环 智能手环 来</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>

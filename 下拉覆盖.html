@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            margin: 200px auto;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .box img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+        }
+        .box .cover{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            top: -150px;
+
+            transition: all .3s;
+        }
+        .cover>img{
+            position: absolute;
+        }
+        .cover_content{
+            position: absolute;
+            display: block;
+            background: #142636;
+            width: 150px;
+            opacity: 0.8;
+            height: 150px;
+        }
+        .cover_content span{
+            position: absolute;
+            width: 150px;
+            height: 30px;
+            background: #142636;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 30px;
+            color: #e1f0ee;
+        }
+        .cover_content .baidu{
+            position: absolute;
+            width: 80px;
+            height: 30px;
+            margin-top: 60px;
+            margin-left: 35px;
+            line-height: 30px;
+            text-align: center;
+            color: #e1f0ee;
+            border: 1px solid #e1f0ee;
+
+        }
+      .box:hover .cover{
+
+            top: 0;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <img src="4.jpg" alt=""/>
+
+    <div class="cover">
+        <img src="4.jpg" alt=""/>
+        <div class="cover_content">
+            <span>智能手环</span>
+
+            <div class="baidu">百度一下</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            width: 952px;
+            height: 600px;
+            margin: 100px auto;
+        }
+
+        .content {
+
+            width: 201px;
+            height: 100%;
+            position: relative;
+            border: 2px solid #99e4ff;
+
+            cursor: pointer;
+
+        }
+
+        .left {
+            width: 100%;
+            height: 100%;
+            background: #FCFCFD;
+            float: left;
+
+        }
+
+        .left .goods_name {
+            display: block;
+            float: left;
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            font-size: 15px;
+
+        }
+        .left .goods_name>span{
+
+            margin-left: 15px;
+
+        }
+        .goods_name .right {
+            display: none;
+            width: 0px;
+            height: 0px;
+            border-top: 2px solid #99e4ff;
+            border-right: 2px solid #99e4ff;
+            border-bottom: 2px solid #99e4ff;
+        }
+        
+        .goods_name:hover .right{
+            top: -2px;
+            display: block;
+            position: absolute;
+            margin-left: 186px;
+            width: 600px;
+            height: 600px;
+            cursor: pointer;
+        }
+        .content:hover{
+            border-right: 0px solid #000;
+            cursor: pointer;
+
+        }
+        .right{
+            padding-left: 5px;
+        }
+        .store{
+            width: 100%;
+            height: 40px;
+            font-size: 20px;
+            color: yellow;
+            margin-left: 10px;
+        }
+        .store_list{
+            width: 100%;
+        }
+        .storeList_content{
+            height: 40px;
+            width: 100%;
+
+        }
+
+        .storeList_left{
+            width: 110px;
+            height: 30px;
+            position: relative;
+            display: block;
+            float: left;
+            text-align: right;
+            padding-top: 10px;
+            font-size: 10px;
+            color: yellow;
+            line-height: 20px;
+        }
+        .storeList_right{
+            width: 475px;
+            height: 30px;
+            position: relative;
+            display: block;
+            float: left;
+            padding-left: 15px;
+            padding-top: 10px;
+            font-size: 10px;
+            word-break:break-all;
+            line-height: 20px;
+        }
+        .storeList_right span{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="content">
+        <div class="left">
+            <div class="goods_name"><span>kindle商店</span>
+
+                <div class="right">
+                    <div class="store">kindle商店</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle Voyage<span>|</span>Kindle Oasis<br/>
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书<br/>
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>Fire平板电脑</span>
+
+                <div class="right">
+                    <div class="store">Fire平板电脑</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">Fire平板电脑</div>
+                            <div class="storeList_right">Fire<span>|</span>Fire咪咕版<span>|</span>Fire配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>亚马逊海外购</span>
+
+                <div class="right">
+                    <div class="store">亚马逊海外购</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">母婴用品</div>
+                            <div class="storeList_right">奶粉<span>|</span>喂养用品<span>|</span>安全防护<span>|</span>外出用品<span>|</span>童车推车
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">玩具</div>
+                            <div class="storeList_right">
+                                婴幼玩具<span>|</span>电子玩具<span>|</span>拼插玩具<span>|</span>动漫玩具
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">服装服饰</div>
+                            <div class="storeList_right">男装<span>|</span>女装<span>|</span>休闲装<span>|</span>内衣家居服<span>|</span>婴幼儿服</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">鞋靴</div>
+                            <div class="storeList_right">
+                                男鞋<span>|</span>女鞋<span>|</span>男童鞋<span>|</span>女童鞋
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">皮具箱包</div>
+                            <div class="storeList_right">
+                                单肩包<span>|</span>钱包<span>|</span>双肩包<span>|</span>皮带置
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">运动户外</div>
+                            <div class="storeList_right">
+                                运动服饰<span>|</span>户外背包<span>|</span>健身训练<span>|</span>智能穿戴<span>|</span>跑步
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">美容化妆</div>
+                            <div class="storeList_right">
+                                面部护肤<span>|</span>彩妆<span>|</span>美发护发<span>|</span>身体护理<span>|</span>工具配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">个护健康</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">
+                                眼睛护理<span>|</span>保健品<span>|</span>剃须用品<span>|</span>口腔护理
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">厨具</div>
+                            <div class="storeList_right">水具<span>|</span>酒具</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">进口直采</div>
+                            <div class="storeList_right">鞋靴<span>|</span>箱包<span>|</span>珠宝首饰<span>|</span>服饰<span>|</span>腕表<span>|</span>酒水<br/>
+                            食品<span>|</span>居家<span>|</span>母婴玩具<span>|</span>数码影音
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">香港/保税仓</div>
+                            <div class="storeList_right">个护健康<span>|</span>母婴<span>|</span>小家电<span>|</span>美妆<span>|</span>服饰<span>|</span>手表
+                            </div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>图书</span>
+
+                <div class="right">
+                    <div class="store">图书</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">中文图书</div>
+                            <div class="storeList_right">教材教辅<span>|</span>少儿<span>|</span>文学<span>|</span>社科<span>|</span>经管<span>|</span>亚马逊编辑推荐
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">进口图书</div>
+                            <div class="storeList_right">
+                                Children's Books<span>|</span>Literature & Fiction<span>|</span>进口港台图书
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">小说<span>|</span>经管<span>|</span>文学<span>|</span>科技<span>|</span>社科<span>|</span>特价书<span>|</span>包月服务
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">教材教辅</div>
+                            <div class="storeList_right">
+                                考试<span>|</span>外语学习<span>|</span>教材<span>|</span>中小学教辅<span>|</span>工具书<span>|</span>教育理论
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">少儿</div>
+                            <div class="storeList_right">0-2岁<span>|</span>3-6岁<span>|</span>7-10岁<span>|</span>11-14岁<span>|</span>儿童绘本<span>|</span>家庭教育</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">文学艺术</div>
+                            <div class="storeList_right">小说<span>|</span>文学<span>|</span>青春与动漫<span>|</span>传记<span>|</span>艺术</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">人文社科</div>
+                            <div class="storeList_right">历史<span>|</span>国学古籍<span>|</span>哲学与宗教<span>|</span>法律<span>|</span>心理学</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">经济管理</div>
+                            <div class="storeList_right">投资理财<span>|</span>管理<span>|</span>经济与金融<span>|</span>市场营销</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">励志与成功</div>
+                            <div class="storeList_right">心灵读物<span>|</span>人际交往<span>|</span>职场<span>|</span>成功学</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">科技</div>
+                            <div class="storeList_right">科普<span>|</span>计算机与网络<span>|</span>医学<span>|</span>建筑</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">生活</div>
+                            <div class="storeList_right">孕产育儿<span>|</span>烹饪与美食<span>|</span>健康与养生<span>|</span>旅游与地图</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>手机、摄影、数码</span>
+
+                <div class="right">
+                    <div class="store">手机、摄影、数码</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">手机通讯</div>
+                            <div class="storeList_right">Apple iPhone<span>|</span>三星<span>|</span>诺基亚<span>|</span>华为<span>|</span>小米<span>|</span>联想<span>|</span>索尼<br/>
+                                中兴<span>|</span>HTC<span>|</span>魅族<span>|</span>酷派<span>|</span>所有手机
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">智能生活馆</div>
+                            <div class="storeList_right">
+                                智能手环<span>|</span>智能手表<span>|</span>儿童智能手表<span>|</span>VR/AR<span>|</span>创意产品<br/>
+                                安防中控<span>|</span>娱乐互联<span>|</span>智能健康<span>|</span>智能交通<span>|</span>数码配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">手机配件</div>
+                            <div class="storeList_right">移动电源<span>|</span>蓝牙/耳机<span>|</span>存储卡<span>|</span>保护壳<span>|</span>手机音箱<span>|</span>蓝牙配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">数码影音</div>
+                            <div class="storeList_right">
+                                BOSE<span>|</span>Apple iPod<span>|</span>MP3/MP4<span>|</span>耳机/耳麦<span>|</span>音箱<span>|</span>高清播放器<br/>
+                                录音笔<span>|</span>游戏设备<span>|</span>数码相框<span>|</span>收音机
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">智能数码</div>
+                            <div class="storeList_right">智能手环<span>|</span>智能手表<span>|</span>智能家居<span>|</span>娱乐影像<span>|</span>创意产品</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">摄影摄像</div>
+                            <div class="storeList_right">便携相机<span>|</span>单反相机<span>|</span>单电/微单<span>|</span>镜头<span>|</span>数码摄像机<span>|</span>拍立得<br/>
+                                运动相机及配件<span>|</span>无人机及配件<span>|</span>相印机<span>|</span>监控安防<span>|</span>望远镜
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">相机配件</div>
+                            <div class="storeList_right">摄影器材箱包<span>|</span>三脚架/云台<span>|</span>滤镜<span>|</span>自拍杆 </div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>电子配件、智能生活</span>
+
+                <div class="right">
+                    <div class="store">电子配件、智能生活</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">智能生活</div>
+                            <div class="storeList_right">智能手环<span>|</span>智能手表<span>|</span>儿童智能手表<span>|</span>VR/AR<span>|</span>创意产品z<br/>
+                                安防中控<span>|</span>娱乐互联<span>|</span>智能健康<span>|</span>智能交通<span>|</span>数码配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">手机配件</div>
+                            <div class="storeList_right">
+                                移动电源<span>|</span>手机壳<span>|</span>贴膜<span>|</span>存储卡<span>|</span>蓝牙耳机<span>|</span>手机耳机<span>|</span>支架
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">电脑配件</div>
+                            <div class="storeList_right">鼠标<span>|</span>键盘<span>|</span>固态硬盘<span>|</span>移动硬盘<span>|</span>U盘<span>|</span>路由器<span>|</span>存储设备<br/>
+                             游戏配件<span>|</span>电脑包<span>|</span>摄像头<span>|</span>显示器<span>|</span>电脑组件<span>|</span>网络设备
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">摄影摄像配件</div>
+                            <div class="storeList_right">
+                                镜头<span>|</span>摄影包<span>|</span>三脚架<span>|</span>自拍杆<span>|</span>滤镜<span>|</span>闪光灯<span>|</span>电池<br/>
+                                运动相机支架<span>|</span>运动相机包/壳<span>|</span>运动相机配件套装<span>|</span>无人机配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">耳机音箱及配件</div>
+                            <div class="storeList_right">耳机<span>|</span>耳机配件<span>|</span>音箱<span>|</span>音箱线材支架<span>|</span>音箱线材支架
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">办公设备及耗材</div>
+                            <div class="storeList_right">办公耗材<span>|</span>硒鼓<span>|</span>墨盒<span>|</span>色带<span>|</span>设备配件<span>|</span>投影配件<span>|</span>数位板</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">电视音响配件</div>
+                            <div class="storeList_right">线缆<span>|</span>电视支架<span>|</span>3D眼镜<span>|</span>家庭影院<span>|</span>Soundbar<span>|</span>功放</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">乐器配件</div>
+                            <div class="storeList_right">吉他配件<span>|</span>贝斯配件<span>|</span>键盘乐器配件<span>|</span>打击乐器配件<span>|</span>弦乐器配件<br/>
+                                吹奏乐器配件<span>|</span>中国民乐配件<span>|</span>录音设备配件<span>|</span>通用配件</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>家居、厨具、家装</span>
+
+                <div class="right">
+                    <div class="store">家居、厨具、家装</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>电脑、办公</span>
+
+                <div class="right">
+                    <div class="store">电脑、办公</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>家用电器</span>
+
+                <div class="right">
+                    <div class="store">家用电器</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>美妆、个护健康</span>
+
+                <div class="right">
+                    <div class="store">美妆、个护健康</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>食品、酒水、生鲜</span>
+
+                <div class="right">
+                    <div class="store">食品、酒水、生鲜</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>玩具、母婴、家庭会员</span>
+
+                <div class="right">
+                    <div class="store">玩具、母婴、家庭会员</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>运动户外、汽车用品</span>
+
+                <div class="right">
+                    <div class="store">运动户外、汽车用品</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>服装、鞋靴、箱包</span>
+
+                <div class="right">
+                    <div class="store">服装、鞋靴、箱包</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>钟表、首饰</span>
+
+                <div class="right">
+                    <div class="store">钟表、首饰</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>游戏、影视、乐器</span>
+
+                <div class="right">
+                    <div class="store">游戏、影视、乐器</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="goods_name"><span>亚马逊Drive</span>
+
+                <div class="right">
+                    <div class="store">亚马逊Drive</div>
+                    <div class="store_list">
+                        <div class="storeList_content">
+                            <div class="storeList_left">电子书阅读器</div>
+                            <div class="storeList_right">Kindle<span>|</span>Kindle Paperwhite<span>|</span>Kindle
+                                Voyage<span>|</span>Kindle Oasis
+                                Kindle配件
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle电子书</div>
+                            <div class="storeList_right">
+                                排行榜<span>|</span>特价书<span>|</span>小说<span>|</span>进口原版<span>|</span>少儿<span>|</span>杂志<span>|</span>文学<span>|</span>免费书
+                                经管<span>|</span>社科<span>|</span>科技<span>|</span>英语<span>|</span>学习
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle Unlimited</div>
+                            <div class="storeList_right">包月电子书</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">免费阅读软件</div>
+                            <div class="storeList_right">
+                                安卓版<span>|</span>iPhone版<span>|</span>iPad版<span>|</span>PC版<span>|</span>Mac版<span>|</span>使用攻略
+                            </div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">管理内容和设备</div>
+                            <div class="storeList_right">管理我的内容<span>|</span>管理我的设备<span>|</span>付款方式设置</div>
+                        </div>
+                        <div class="storeList_content">
+                            <div class="storeList_left">Kindle帮助</div>
+                            <div class="storeList_right">常见问题<span>|</span>帮助视频</div>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
